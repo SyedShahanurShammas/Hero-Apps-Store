@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1558655146-364adaf1fcc9?auto=format&fit=crop&w=600&q=60",
+    "title": "ChatEase",
+    "companyName": "OpenTech",
+    "id": 1,
+    "description": "A smart AI-powered chat assistant that helps with writing, coding, and research.",
+    "size": 85,
+    "reviews": 1200,
+    "ratingAvg": 4.7,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 660 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?auto=format&fit=crop&w=600&q=60",
+    "title": "FitLife",
+    "companyName": "Healthify Co.",
+    "id": 2,
+    "description": "Track your workouts, monitor progress, and stay motivated with personal goals.",
+    "size": 68,
+    "reviews": 980,
+    "ratingAvg": 4.5,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 420 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1603791452906-bd9f3d3f2f96?auto=format&fit=crop&w=600&q=60",
+    "title": "PhotoPro",
+    "companyName": "LensLab",
+    "id": 3,
+    "description": "Professional photo editor with filters, effects, and AI background remover.",
+    "size": 92,
+    "reviews": 2100,
+    "ratingAvg": 4.8,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1220 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=600&q=60",
+    "title": "TaskFlow",
+    "companyName": "Productive Labs",
+    "id": 4,
+    "description": "Boost productivity with task boards, reminders, and collaboration tools.",
+    "size": 56,
+    "reviews": 730,
+    "ratingAvg": 4.3,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 290 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1587613865763-4b8b0ae1ef8e?auto=format&fit=crop&w=600&q=60",
+    "title": "Noteify",
+    "companyName": "Mindly",
+    "id": 5,
+    "description": "Organize your notes, voice memos, and to-do lists in one clean workspace.",
+    "size": 47,
+    "reviews": 560,
+    "ratingAvg": 4.4,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 180 },
+      { "name": "5 star", "count": 220 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?auto=format&fit=crop&w=600&q=60",
+    "title": "Learnify",
+    "companyName": "EduSmart",
+    "id": 6,
+    "description": "Online learning platform with interactive lessons, quizzes, and progress tracking.",
+    "size": 101,
+    "reviews": 1500,
+    "ratingAvg": 4.6,
+    "downloads": 400000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 740 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?auto=format&fit=crop&w=600&q=60",
+    "title": "TuneMate",
+    "companyName": "SoundWave Inc.",
+    "id": 7,
+    "description": "Stream and download your favorite songs, create playlists, and enjoy ad-free music.",
+    "size": 76,
+    "reviews": 2500,
+    "ratingAvg": 4.9,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1660 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1607083206968-13611e3b8369?auto=format&fit=crop&w=600&q=60",
+    "title": "TravelGo",
+    "companyName": "GlobeX",
+    "id": 8,
+    "description": "Find cheap flights, book hotels, and plan your trips with AI travel assistant.",
+    "size": 82,
+    "reviews": 890,
+    "ratingAvg": 4.2,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 300 }
+    ]
+  }
+]
