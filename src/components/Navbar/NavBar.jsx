@@ -1,12 +1,42 @@
-import React from "react";
 import heroIcon from "../../assets/logo.png";
-import { Link, Links } from "react-router";
+import { Link, Links, NavLink } from "react-router";
 import { FaGithub } from "react-icons/fa6";
 
 const NavBar = () => {
   const links = (
     <>
-      <Link to={"/"}>
+      <NavLink
+        className={({ isActive }) =>
+          isActive
+            ? "text-[#9F62F2] underline underline-offset-2 font-bold"
+            : "text-gray-600"
+        }
+        to={"/"}
+      >
+        <li className="m-3 cursor-pointer "> Home</li>
+      </NavLink>
+      <NavLink
+        className={({ isActive }) =>
+          isActive
+            ? "text-[#9F62F2] underline underline-offset-2 font-bold"
+            : "text-gray-600"
+        }
+        to={"/apps"}
+      >
+        <li className="m-3 cursor-pointer ">Apps</li>
+      </NavLink>
+      <NavLink
+        className={({ isActive }) =>
+          isActive
+            ? "text-[#9F62F2] underline underline-offset-2 font-bold"
+            : "text-gray-600"
+        }
+        to={"/installation"}
+      >
+        <li className="m-3 cursor-pointer ">Installation</li>
+      </NavLink>
+
+      {/* <Link to={"/"}>
         {" "}
         <li className="m-2 cursor-pointer ">Home</li>
       </Link>
@@ -15,7 +45,7 @@ const NavBar = () => {
       </Link>
       <Link to={"/installation"}>
         <li className="m-2 cursor-pointer ">Installation</li>
-      </Link>
+      </Link> */}
     </>
   );
   return (

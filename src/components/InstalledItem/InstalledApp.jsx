@@ -1,17 +1,24 @@
 import React from "react";
 import download from "../../assets/icon-downloads.png";
 import star from "../../assets/icon-ratings.png";
-const InstalledApp = ({ app }) => {
-  const { size, title, image, downloads, ratings } = app;
+const InstalledApp = ({ app, setSaveApps }) => {
+  const { size, title, image, downloads, ratings, id } = app;
+
+  const handleRemove = (id) => {
+    const existingApps = JSON.parse(localStorage.getItem("appsList"));
+    let updatedList = existingApps.filter((a) => a.id !== id);
+    setSaveApps(updatedList);
+    localStorage.setItem("appsList", JSON.stringify(updatedList));
+  };
   return (
-    <div className="mt-5">
-      <div className="flex  justify-between items-center bg-white p-2 rounded">
-        <div className="flex  gap-2">
-          <img className="h-[80px] rounded" src={image} alt="" />
+    <div className="lg:mt-2 mt-1 p-4 lg:p-0">
+      <div className="lg:flex  justify-between items-center bg-white p-4 lg:p-2 rounded">
+        <div className="lg:flex  gap-3">
+          <img className="lg:h-[80px]  rounded" src={image} alt="" />
           <div className="space-y-4">
-            <h1 className="text-[20px] font-semibold">{title}</h1>
+            <h1 className="text-[20px] mt-4 lg:mt-0 font-semibold">{title}</h1>
             <div>
-              <div className="flex gap-5 items-center justify-between">
+              <div className="flex gap-5 items-center lg:justify-between">
                 <div className="flex items-center  p-2 rounded gap-1">
                   <span>
                     <img className="h-[16px]" src={download} alt="" />
@@ -30,7 +37,10 @@ const InstalledApp = ({ app }) => {
           </div>
         </div>
         <div>
-          <button className="bg-[#00D390] rounded cursor-pointer text-white py-3 px-5 ">
+          <button
+            onClick={() => handleRemove(id)}
+            className="bg-[#00D390] rounded w-full mt-2 lg:mt-0 cursor-pointer text-white py-3 px-5 "
+          >
             UnInstall
           </button>
         </div>

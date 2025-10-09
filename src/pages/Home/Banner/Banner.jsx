@@ -16,7 +16,7 @@ const Banner = () => {
             simpler, smarter, and more exciting.Our goal is to turn your ideas
             into digital experiences that truly make an impact.
           </p>
-          <div className="flex gap-4">
+          <div className="lg:flex block space-y-4 lg:space-y-0 gap-4">
             <button
               onClick={() =>
                 window.open(
@@ -24,7 +24,7 @@ const Banner = () => {
                   "_blank"
                 )
               }
-              className=" border gap-1.5 cursor-pointer border-gray-300 flex items-center rounded  px-6 py-3"
+              className=" border gap-1.5 cursor-pointer border-gray-300 flex items-center rounded   px-6 py-3"
             >
               {" "}
               <span>
@@ -36,7 +36,7 @@ const Banner = () => {
               onClick={() =>
                 window.open("https://www.apple.com/app-store/", "_blank")
               }
-              className="border cursor-pointer border-gray-300 gap-1.5 flex items-center rounded  px-6 py-3"
+              className="border gap-1.5 cursor-pointer border-gray-300 flex items-center rounded   px-6 py-3"
             >
               <span>
                 <img src={appStore} alt="" />
