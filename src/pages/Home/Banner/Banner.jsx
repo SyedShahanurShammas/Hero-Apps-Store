@@ -20,7 +20,7 @@ const Banner = () => {
             <button className="btn m-2">
               {" "}
               <span>
-                <img src={google} alt="" />
+                <img className="" src={google} alt="" />
               </span>{" "}
               <span>Google play</span>
             </button>
@@ -33,7 +33,7 @@ const Banner = () => {
           </div>
         </div>
         <div>
-          <img src={hero} alt="" />
+          <img className="w-2xs lg:w-full md:w-2xl" src={hero} alt="" />
         </div>
       </div>
     </div>

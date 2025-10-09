@@ -7,7 +7,7 @@ const State = () => {
         <h1 className="text-center text-white mb-10 text-[30px] lg:text-[48px] font-bold">
           Trusted by Millions, Built for You
         </h1>
-        <div className="lg:flex block text-center justify-center lg:gap-40">
+        <div className="lg:flex block text-center justify-center gap-8 lg:gap-40">
           <div>
             <p className="text-white">Total Downloads</p>
             <h1 className="lg:text-[64px] text-[44px] font-extrabold my-4 text-[#ffff]">

@@ -2,9 +2,18 @@ import React from "react";
 import useLoaderApps from "../../Hooks/useLoaderApps";
 import AppCard from "../../components/AppCard/AppCard";
 import { useState } from "react";
+import NoApps from "../../components/NoApps/NoApps";
+
 const AllApps = () => {
-  const { allApps } = useLoaderApps();
+  const { allApps, loading } = useLoaderApps();
   const [search, setSearch] = useState("");
+  // console.log(allApps);
+  if (loading) return <h1>Loading...</h1>;
+  const term = search.trim().toLocaleLowerCase();
+  const searchApps = term
+    ? allApps.filter((app) => app.title.toLocaleLowerCase().includes(term))
+    : allApps;
+
   return (
     <div className="container px-5 lg:px-0 mx-auto my-5 md:my-10 lg:my-20">
       <div className="text-center mb-12">
@@ -15,7 +24,7 @@ const AllApps = () => {
       </div>
       <div className="flex justify-between mb-2">
         <h1 className="text-[#001931] text-2xl font-semibold">
-          <small>({allApps.length})</small> Apps Found
+          ({searchApps.length}) Apps Found
         </h1>
         <label className="input">
           <svg
@@ -42,8 +51,9 @@ const AllApps = () => {
           />
         </label>
       </div>
+      {searchApps.length === 0 && <NoApps></NoApps>}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3.5">
-        {allApps.map((app) => (
+        {searchApps.map((app) => (
           <AppCard app={app} key={app.id}></AppCard>
         ))}
       </div>
