@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useParams } from "react-router";
 import useLoaderApps from "../../Hooks/useLoaderApps";
 import download from "../../assets/icon-downloads.png";
@@ -6,12 +6,13 @@ import download1 from "../../assets/icon-ratings.png";
 import download2 from "../../assets/icon-review.png";
 
 const AppsDetails = () => {
+  const [active, setActive] = useState(false);
   const { id } = useParams();
   const { allApps, loading } = useLoaderApps();
   const detailApp = allApps.find((app) => parseInt(id) === app.id);
   if (loading) return <h1>Loading...</h1>;
 
-  console.log(detailApp);
+  //   console.log(detailApp);
 
   const {
     title,
@@ -20,10 +21,24 @@ const AppsDetails = () => {
     downloads,
     image,
     reviews,
-    ratings,
+
     size,
     ratingAvg,
   } = detailApp || {};
+
+  //   set to local storage
+  const handleOnclick = () => {
+    setActive(true);
+    const existingApps = JSON.parse(localStorage.getItem("appsList"));
+    let updatedList = [];
+    if (existingApps) {
+      updatedList = [...existingApps, detailApp];
+    } else {
+      updatedList.push(detailApp);
+    }
+
+    localStorage.setItem("appsList", JSON.stringify(updatedList));
+  };
 
   return (
     <div className="container mx-auto lg:px-0 px-4 ">
@@ -62,14 +77,23 @@ const AppsDetails = () => {
               <h1 className="font-bold text-2xl lg:text-[40px]">{reviews}</h1>
             </div>
           </div>
-          <button className="bg-[#00D390] rounded cursor-pointer text-white py-3 px-5">
-            Install Now ({size}MB)
+          <button
+            onClick={() => handleOnclick()}
+            disabled={active}
+            className={`bg-[#00D390] rounded  text-white py-3 px-5 ${
+              active ? "opacity-60 cursor-not-allowed" : "cursor-pointer"
+            }`}
+          >
+            {active ? "Installed" : `Install Now (${size}MB)`}
           </button>
         </div>
       </div>
-      <hr class=" border-2 border-t border-gray-300 mb-6 "></hr>
+      <hr className=" border-2 border-t border-gray-300 mb-6 "></hr>
       <h1>Ratings</h1>
-      <p>Description</p>
+      <div>
+        <h1 className="text-[#001931] text-3xl mb-4">Description</h1>
+        <p className="text-[#627382]  mb-4">{description}</p>
+      </div>
     </div>
   );
 };

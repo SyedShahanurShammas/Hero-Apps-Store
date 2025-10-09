@@ -16,15 +16,28 @@ const Banner = () => {
             simpler, smarter, and more exciting.Our goal is to turn your ideas
             into digital experiences that truly make an impact.
           </p>
-          <div>
-            <button className="btn m-2">
+          <div className="flex gap-4">
+            <button
+              onClick={() =>
+                window.open(
+                  "https://play.google.com/store/games?hl=en",
+                  "_blank"
+                )
+              }
+              className=" border gap-1.5 cursor-pointer border-gray-300 flex items-center rounded  px-6 py-3"
+            >
               {" "}
               <span>
                 <img className="" src={google} alt="" />
               </span>{" "}
               <span>Google play</span>
             </button>
-            <button className="btn m-2">
+            <button
+              onClick={() =>
+                window.open("https://www.apple.com/app-store/", "_blank")
+              }
+              className="border cursor-pointer border-gray-300 gap-1.5 flex items-center rounded  px-6 py-3"
+            >
               <span>
                 <img src={appStore} alt="" />
               </span>{" "}
