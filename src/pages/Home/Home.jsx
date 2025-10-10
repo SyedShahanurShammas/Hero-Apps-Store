@@ -4,10 +4,11 @@ import State from "./state/State";
 import { Link } from "react-router";
 import Apps from "../../components/AppsCards/Apps";
 import useLoaderApps from "../../Hooks/useLoaderApps";
+import SkeletonLoader from "../../components/loader/SkeletonLoader";
 
 const Home = () => {
   const { allApps, loading } = useLoaderApps();
-  if (loading) return <h1>Loading...</h1>;
+  // if (loading) return <h1>Loading...</h1>;
   const featureApps = allApps.slice(0, 8);
 
   return (
@@ -23,7 +24,12 @@ const Home = () => {
             Explore All Trending Apps on the Market developed by us
           </p>
         </div>
-        <Apps featureApps={featureApps}></Apps>
+
+        {loading ? (
+          <SkeletonLoader></SkeletonLoader>
+        ) : (
+          <Apps featureApps={featureApps}></Apps>
+        )}
         <div className="flex justify-center my-5 lg:my-10">
           <Link
             to={"/apps"}

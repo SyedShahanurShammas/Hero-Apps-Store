@@ -6,6 +6,10 @@ import download1 from "../../assets/icon-ratings.png";
 import download2 from "../../assets/icon-review.png";
 import BarCharts from "../../components/Barchart/BarCharts";
 import { updatedAppList } from "../../utilities/localStorage";
+// sweet alert
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
+const MySwal = withReactContent(Swal);
 
 const AppsDetails = () => {
   const [active, setActive] = useState(false);
@@ -30,6 +34,13 @@ const AppsDetails = () => {
   const handleOnclick = (detailApp) => {
     setActive(true);
     updatedAppList(detailApp);
+
+    // sweet alert
+    Swal.fire({
+      title: "Awsome!",
+      text: "The App successfully added in your LocalStorage",
+      icon: "success",
+    });
   };
 
   return (

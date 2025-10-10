@@ -1,7 +1,7 @@
 [
   {
     "image": "https://i.ibb.co.com/HfrDX0nk/todo.jpg",
-    "title": "Todoist - Smart Task Manager Pro",
+    "title": "Todoist - Smart Task Manager Pro- Tool",
     "companyName": "Doist",
     "id": 1,
     "description": "Todoist is a powerful and intuitive task management application designed to help individuals and teams organize their daily activities, set priorities, and achieve their goals efficiently. With its clean interface and robust features, users can create projects, set due dates, add labels, and collaborate with team members seamlessly. The app integrates with over 80 popular tools including Gmail, Slack, and Google Calendar, making it the perfect productivity companion for professionals, students, and anyone looking to stay organized. Features include recurring tasks, priority levels, productivity tracking, project templates, and detailed productivity reports that help you understand your work patterns and improve over time.",
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=Slack&size=600&background=4a154b&color=fff&bold=true&format=png",
+    "image": "https://i.ibb.co.com/JR9F3LzM/slack.png",
     "title": "Slack - Team Communication Hub Platform",
     "companyName": "Salesforce",
     "id": 8,
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=Microsoft+To+Do&size=600&background=2564cf&color=fff&bold=true&format=png",
+    "image": "https://i.ibb.co.com/cXb6dgfS/mdtodo1.jpg",
     "title": "Microsoft To Do - Daily Planner App",
     "companyName": "Microsoft",
     "id": 9,
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=Google+Calendar&size=600&background=4285f4&color=fff&bold=true&format=png",
+    "image": "https://i.ibb.co.com/0y3hJwTQ/images.png",
     "title": "Google Calendar - Smart Scheduling Solution",
     "companyName": "Google LLC",
     "id": 10,
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=Forest&size=600&background=6db05a&color=fff&bold=true&format=png",
+    "image": "https://i.ibb.co.com/HfzyX0cZ/download.png",
     "title": "Forest - Focus Timer Productivity Booster",
     "companyName": "SeekrTech",
     "id": 11,
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=Basecamp&size=600&background=1d8248&color=fff&bold=true&format=png",
+    "image": "https://i.ibb.co.com/jkGtz1jZ/download-1.png",
     "title": "Basecamp - Project Management Communication Tool",
     "companyName": "Basecamp LLC",
     "id": 12,
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=Airtable&size=600&background=fcb400&color=fff&bold=true&format=png",
+    "image": "https://i.ibb.co.com/PG2WrpD6/download-2.png",
     "title": "Airtable - Flexible Database Spreadsheet Platform",
     "companyName": "Airtable Inc.",
     "id": 13,
@@ -234,7 +234,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=Todo.txt&size=600&background=5f9ea0&color=fff&bold=true&format=png",
+    "image": "https://i.ibb.co.com/VYC3gBHb/images.jpg",
     "title": "Todo.txt - Minimalist Plain Text Manager",
     "companyName": "Gina Trapani",
     "id": 14,
@@ -252,7 +252,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=Any.do&size=600&background=3b5998&color=fff&bold=true&format=png",
+    "image": "https://i.ibb.co.com/gLp6Fwdj/images-1.png",
     "title": "Any.do - Life Organization Planner Assistant",
     "companyName": "Any.do",
     "id": 15,
@@ -270,7 +270,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=Notability&size=600&background=00d4ff&color=fff&bold=true&format=png",
+    "image": "https://i.ibb.co.com/8D6B44VG/download-3.png",
     "title": "Notability - Digital Handwriting Note Taker",
     "companyName": "Ginger Labs",
     "id": 16,
@@ -288,7 +288,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=Habitica&size=600&background=9c27b0&color=fff&bold=true&format=png",
+    "image": "https://i.ibb.co.com/XxwpJF3C/download-4.png",
     "title": "Habitica - Gamified Habit Building RPG",
     "companyName": "HabitRPG",
     "id": 17,
@@ -306,7 +306,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=Microsoft+OneNote&size=600&background=7719aa&color=fff&bold=true&format=png",
+    "image": "https://i.ibb.co.com/fd2ZBPWb/download-5.png",
     "title": "Microsoft OneNote - Digital Notebook Organization System",
     "companyName": "Microsoft",
     "id": 18,
@@ -324,7 +324,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=RescueTime&size=600&background=ff6347&color=fff&bold=true&format=png",
+    "image": "https://i.ibb.co.com/rKrxwKb0/download-1.jpg",
     "title": "RescueTime - Automatic Time Tracking Analytics",
     "companyName": "RescueTime Inc.",
     "id": 19,
@@ -342,7 +342,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=TimeTune&size=600&background=20b2aa&color=fff&bold=true&format=png",
+    "image": "https://i.ibb.co.com/Zj1j638/download-2.jpg",
     "title": "TimeTune - Daily Routine Schedule Optimizer",
     "companyName": "TimeTune Inc.",
     "id": 20,
@@ -360,7 +360,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=TickTick&size=600&background=4caf50&color=fff&bold=true&format=png",
+    "image": "https://i.ibb.co.com/cX64Ww82/download-3.jpg",
     "title": "TickTick - Advanced Task Calendar Tracker",
     "companyName": "Appest",
     "id": 21,
@@ -378,7 +378,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=OmniFocus&size=600&background=e74c3c&color=fff&bold=true&format=png",
+    "image": "https://i.ibb.co.com/chcdDbgd/images-1.jpg",
     "title": "OmniFocus - Professional GTD Task System",
     "companyName": "The Omni Group",
     "id": 22,
@@ -396,7 +396,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=Evernote+Pro&size=600&background=2dbe60&color=fff&bold=true&format=png",
+    "image": "https://i.ibb.co.com/cSxpLqDz/download-6.png",
     "title": "Evernote Pro - Professional Knowledge Management Suite",
     "companyName": "Evernote Corporation",
     "id": 23,
@@ -414,7 +414,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=Trello+Premium&size=600&background=0079bf&color=fff&bold=true&format=png",
+    "image": "https://i.ibb.co.com/Cs3tf9z5/images-2.png",
     "title": "Trello Premium - Kanban Board Workflow Manager",
     "companyName": "Atlassian",
     "id": 24,
@@ -432,7 +432,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=Asana+Business&size=600&background=f06a6a&color=fff&bold=true&format=png",
+    "image": "https://i.ibb.co.com/pBc6jphz/images-2.jpg",
     "title": "Asana Business - Enterprise Team Coordination Platform",
     "companyName": "Asana, Inc.",
     "id": 25,
@@ -450,7 +450,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=ClickUp+Enterprise&size=600&background=7b68ee&color=fff&bold=true&format=png",
+    "image": "https://i.ibb.co.com/jksxzJd0/download-4.jpg",
     "title": "ClickUp Enterprise - Ultimate Work Operating System",
     "companyName": "Mango Technologies",
     "id": 26,
@@ -468,7 +468,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=Slack+Business&size=600&background=4a154b&color=fff&bold=true&format=png",
+    "image": "https://i.ibb.co.com/NgX5dP04/images-3.png",
     "title": "Slack Business - Team Communication Collaboration Hub",
     "companyName": "Slack Technologies",
     "id": 27,
@@ -486,7 +486,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=Google+Keep+Pro&size=600&background=fbbc04&color=fff&bold=true&format=png",
+    "image": "https://i.ibb.co.com/20scHFn5/images-3.jpg",
     "title": "Google Keep Pro - Fast Note Capture Tool",
     "companyName": "Google LLC",
     "id": 28,

@@ -35,17 +35,6 @@ const NavBar = () => {
       >
         <li className="m-3 cursor-pointer ">My-Installation</li>
       </NavLink>
-
-      {/* <Link to={"/"}>
-        {" "}
-        <li className="m-2 cursor-pointer ">Home</li>
-      </Link>
-      <Link to={"/apps"}>
-        <li className="m-2 cursor-pointer ">Apps</li>
-      </Link>
-      <Link to={"/installation"}>
-        <li className="m-2 cursor-pointer ">Installation</li>
-      </Link> */}
     </>
   );
   return (

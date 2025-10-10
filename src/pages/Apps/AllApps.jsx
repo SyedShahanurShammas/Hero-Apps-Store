@@ -3,12 +3,13 @@ import useLoaderApps from "../../Hooks/useLoaderApps";
 import AppCard from "../../components/AppCard/AppCard";
 import { useState } from "react";
 import NoApps from "../../components/NoApps/NoApps";
+import SkeletonLoader from "../../components/loader/SkeletonLoader";
 
 const AllApps = () => {
   const { allApps, loading } = useLoaderApps();
   const [search, setSearch] = useState("");
   // console.log(allApps);
-  if (loading) return <h1>Loading...</h1>;
+  // if (loading) return <h1>Loading...</h1>;
   const term = search.trim().toLocaleLowerCase();
   const searchApps = term
     ? allApps.filter((app) => app.title.toLocaleLowerCase().includes(term))
@@ -23,10 +24,10 @@ const AllApps = () => {
         </p>
       </div>
       <div className="flex justify-between mb-2">
-        <h1 className="text-[#001931] text-2xl font-semibold">
+        <h1 className="text-[#001931] lg:text-2xl text-xl font-semibold">
           ({searchApps.length}) Apps Found
         </h1>
-        <label className="input">
+        <label className="input  w-4/12">
           <svg
             className="h-[1em] opacity-50"
             xmlns="http://www.w3.org/2000/svg"
@@ -51,12 +52,18 @@ const AllApps = () => {
           />
         </label>
       </div>
+
+      {loading ? (
+        <SkeletonLoader count={"28"}></SkeletonLoader>
+      ) : (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3.5">
+          {searchApps.map((app) => (
+            <AppCard app={app} key={app.id}></AppCard>
+          ))}
+        </div>
+      )}
+      {/* error page:no app found */}
       {searchApps.length === 0 && <NoApps></NoApps>}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3.5">
-        {searchApps.map((app) => (
-          <AppCard app={app} key={app.id}></AppCard>
-        ))}
-      </div>
     </div>
   );
 };

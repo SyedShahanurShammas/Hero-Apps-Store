@@ -1,6 +1,11 @@
 import React from "react";
 import download from "../../assets/icon-downloads.png";
 import star from "../../assets/icon-ratings.png";
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
+
+const MySwal = withReactContent(Swal);
+
 const InstalledApp = ({ app, setSaveApps }) => {
   const { size, title, image, downloads, ratings, id } = app;
 
@@ -9,6 +14,15 @@ const InstalledApp = ({ app, setSaveApps }) => {
     let updatedList = existingApps.filter((a) => a.id !== id);
     setSaveApps(updatedList);
     localStorage.setItem("appsList", JSON.stringify(updatedList));
+
+    //  sweet alert
+
+    Swal.fire({
+      icon: "error",
+      title: "Removed",
+      text: "Your app Removed from LocalStorage!",
+      footer: '<a href="#">Do I have any quarry?</a>',
+    });
   };
   return (
     <div className="lg:mt-2 mt-1 p-4 lg:p-0">
