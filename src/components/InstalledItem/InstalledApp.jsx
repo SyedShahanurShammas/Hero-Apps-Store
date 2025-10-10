@@ -14,11 +14,15 @@ const InstalledApp = ({ app, setSaveApps }) => {
     <div className="lg:mt-2 mt-1 p-4 lg:p-0">
       <div className="lg:flex  justify-between items-center bg-white p-4 lg:p-2 rounded">
         <div className="lg:flex  gap-3">
-          <img className="lg:h-[80px]  rounded" src={image} alt="" />
+          <img
+            className="lg:h-[80px] w-full lg:w-2/12  rounded"
+            src={image}
+            alt=""
+          />
           <div className="space-y-4">
             <h1 className="text-[20px] mt-4 lg:mt-0 font-semibold">{title}</h1>
             <div>
-              <div className="flex gap-5 items-center lg:justify-between">
+              <div className="flex gap-5 lg:gap-0 items-center ">
                 <div className="flex items-center  p-2 rounded gap-1">
                   <span>
                     <img className="h-[16px]" src={download} alt="" />

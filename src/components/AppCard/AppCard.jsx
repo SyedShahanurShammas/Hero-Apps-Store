@@ -9,7 +9,7 @@ const AppCard = ({ app }) => {
       <Link to={`/appsDetails/${id}`}>
         <div className=" rounded cursor-pointer p-2.5 bg-base-100 hover:scale-103 transition ease-in-out  shadow-sm">
           <figure className="h-[200px]">
-            <img className="rounded" src={image} />
+            <img className="rounded h-[200px]  w-full" src={image} />
           </figure>
           <div className="">
             <h2 className="card-title mb-2.5">{title}</h2>
@@ -19,7 +19,7 @@ const AppCard = ({ app }) => {
                 <span>
                   <img className="h-[16px]" src={download} alt="" />
                 </span>
-                <span className="text-[#00D390]">{downloads}</span>
+                <span className="text-[#00D390]">{downloads / 100000}M</span>
               </div>
               <div className="flex items-center gap-2 px-2.5 bg-orange-100 p-1 rounded ">
                 <img className="h-[16px]" src={star} alt="" />

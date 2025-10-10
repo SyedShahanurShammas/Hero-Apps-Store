@@ -33,7 +33,7 @@ const NavBar = () => {
         }
         to={"/installation"}
       >
-        <li className="m-3 cursor-pointer ">Installation</li>
+        <li className="m-3 cursor-pointer ">My-Installation</li>
       </NavLink>
 
       {/* <Link to={"/"}>

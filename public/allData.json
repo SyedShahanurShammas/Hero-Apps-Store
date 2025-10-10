@@ -1,0 +1,506 @@
+[
+  {
+    "image": "https://i.ibb.co.com/HfrDX0nk/todo.jpg",
+    "title": "Todoist - Smart Task Manager Pro",
+    "companyName": "Doist",
+    "id": 1,
+    "description": "Todoist is a powerful and intuitive task management application designed to help individuals and teams organize their daily activities, set priorities, and achieve their goals efficiently. With its clean interface and robust features, users can create projects, set due dates, add labels, and collaborate with team members seamlessly. The app integrates with over 80 popular tools including Gmail, Slack, and Google Calendar, making it the perfect productivity companion for professionals, students, and anyone looking to stay organized. Features include recurring tasks, priority levels, productivity tracking, project templates, and detailed productivity reports that help you understand your work patterns and improve over time.",
+    "size": 40,
+    "reviews": 500,
+    "ratingAvg": 4.0,
+    "downloads": 100000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 30 },
+      { "name": "4 star", "count": 40 },
+      { "name": "5 star", "count": 50 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/cc8wnf3C/notion.png",
+    "title": "Notion - All-in-One Workspace Hub",
+    "companyName": "Notion Labs",
+    "id": 2,
+    "description": "Notion is a revolutionary all-in-one workspace that combines notes, tasks, wikis, and databases into a single, powerful platform. It's designed to be your second brain, allowing you to capture ideas, manage projects, organize information, and collaborate with your team in real-time. Whether you're a student taking lecture notes, a project manager tracking deliverables, a writer drafting articles, or a business owner managing company knowledge, Notion adapts to your workflow. Its flexible block-based system lets you create custom pages with text, images, databases, kanban boards, calendars, and more. With powerful database features, advanced filtering, and the ability to create relations between different pieces of information, Notion becomes increasingly valuable as your knowledge base grows.",
+    "size": 41,
+    "reviews": 550,
+    "ratingAvg": 4.1,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 11 },
+      { "name": "2 star", "count": 21 },
+      { "name": "3 star", "count": 31 },
+      { "name": "4 star", "count": 41 },
+      { "name": "5 star", "count": 52 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/9H2Nm2rG/trello.png",
+    "title": "Trello - Visual Project Management Tool",
+    "companyName": "Atlassian",
+    "id": 3,
+    "description": "Trello is a highly visual collaboration tool that organizes your projects into flexible boards, lists, and cards. Based on the Kanban methodology, Trello makes it easy to see what's being worked on, who's working on what, and where tasks are in the process. Perfect for agile teams, marketing campaigns, product launches, and personal productivity, Trello's intuitive drag-and-drop interface requires no training to get started. Each card can contain checklists, attachments, due dates, labels, and comments, making it a comprehensive solution for project tracking. With powerful automation through Butler, hundreds of integrations called Power-Ups, and the ability to view your work in multiple formats including timeline, calendar, and dashboard views, Trello scales from simple personal to-do lists to complex enterprise project management.",
+    "size": 42,
+    "reviews": 600,
+    "ratingAvg": 4.2,
+    "downloads": 140000,
+    "ratings": [
+      { "name": "1 star", "count": 12 },
+      { "name": "2 star", "count": 22 },
+      { "name": "3 star", "count": 32 },
+      { "name": "4 star", "count": 42 },
+      { "name": "5 star", "count": 54 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/BkNTsYq/clickup.png",
+    "title": "ClickUp - Complete Productivity Platform Suite",
+    "companyName": "Mango Technologies",
+    "id": 4,
+    "description": "ClickUp is the ultimate productivity platform that aims to replace all other work apps with one centralized hub. It offers an unprecedented level of customization, allowing you to tailor every aspect of your workspace to match your team's unique workflow. From task management and document collaboration to goal tracking and time management, ClickUp provides everything you need in one place. Features include customizable views (List, Board, Calendar, Gantt, Timeline), advanced task dependencies, workload management, built-in time tracking, native screen recording, collaborative docs and whiteboards, form builders, and comprehensive reporting dashboards. Whether you're managing a small team or coordinating across multiple departments in a large organization, ClickUp's hierarchy system of Spaces, Folders, Lists, and Tasks keeps everything organized and accessible.",
+    "size": 43,
+    "reviews": 650,
+    "ratingAvg": 4.3,
+    "downloads": 160000,
+    "ratings": [
+      { "name": "1 star", "count": 13 },
+      { "name": "2 star", "count": 23 },
+      { "name": "3 star", "count": 33 },
+      { "name": "4 star", "count": 43 },
+      { "name": "5 star", "count": 56 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/W4sj9p3C/asana.png",
+    "title": "Asana - Team Collaboration Management System",
+    "companyName": "Asana Inc.",
+    "id": 5,
+    "description": "Asana is a comprehensive work management platform that helps teams organize, track, and manage their work from start to finish. Designed with clarity and ease of use in mind, Asana ensures that everyone knows what needs to be done, who's responsible, and when it's due. The platform excels at breaking down complex projects into manageable tasks, establishing clear accountability, and keeping teams aligned on shared goals. With features like project timelines, workload management, custom fields, task dependencies, and portfolio views, managers can easily oversee multiple projects and ensure resources are allocated efficiently. Asana's powerful automation rules eliminate repetitive work, while its extensive integration ecosystem connects with the tools your team already uses. Whether you're planning a product launch, managing a marketing campaign, or coordinating company-wide initiatives, Asana provides the structure and visibility needed to deliver exceptional results.",
+    "size": 44,
+    "reviews": 700,
+    "ratingAvg": 4.4,
+    "downloads": 180000,
+    "ratings": [
+      { "name": "1 star", "count": 14 },
+      { "name": "2 star", "count": 24 },
+      { "name": "3 star", "count": 34 },
+      { "name": "4 star", "count": 44 },
+      { "name": "5 star", "count": 58 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/20s0YJ3P/ever.jpg",
+    "title": "Evernote - Digital Note Taking Organizer",
+    "companyName": "Evernote Corporation",
+    "id": 6,
+    "description": "Evernote is the ultimate digital notebook that helps you capture, organize, and find information across all your devices. Whether you're clipping articles from the web, scanning documents, recording voice memos, or jotting down quick notes, Evernote keeps everything in one searchable place. Its powerful organizational system uses notebooks and tags to create a flexible structure that adapts to your needs. The app's advanced search can even find text within images and handwritten notes, making it easy to retrieve information when you need it. Evernote's web clipper browser extension lets you save entire web pages, articles, or screenshots with one click, while templates help you create consistent notes for meetings, project plans, and daily journals. With features like task management, document scanning, PDF annotation, and seamless synchronization across all platforms, Evernote serves as your extended memory and command center for both professional and personal information.",
+    "size": 45,
+    "reviews": 750,
+    "ratingAvg": 4.0,
+    "downloads": 200000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 35 },
+      { "name": "4 star", "count": 45 },
+      { "name": "5 star", "count": 60 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/sJCcS9vp/download.jpg",
+    "title": "Google Keep - Quick Notes Assistant",
+    "companyName": "Google LLC",
+    "id": 7,
+    "description": "Google Keep is a lightweight, fast, and intuitive note-taking app that seamlessly integrates with the Google ecosystem. Designed for quick capture and easy organization, Keep lets you jot down thoughts, create checklists, set reminders, and organize ideas with color-coded labels and archive features. Its voice recording feature automatically transcribes your spoken notes, while the drawing tool allows for quick sketches and visual brainstorming. Keep's collaborative features make it easy to share notes and lists with family, friends, or colleagues, perfect for grocery lists, travel planning, or project coordination. The app's location-based reminders can alert you when you arrive at specific places, ensuring you never forget to pick up items at the store or complete tasks at the office. With instant synchronization across all your devices and deep integration with Google Docs, Gmail, and Google Calendar, Keep serves as your quick-access memory bank for all those fleeting ideas and important reminders.",
+    "size": 46,
+    "reviews": 800,
+    "ratingAvg": 4.1,
+    "downloads": 220000,
+    "ratings": [
+      { "name": "1 star", "count": 16 },
+      { "name": "2 star", "count": 26 },
+      { "name": "3 star", "count": 36 },
+      { "name": "4 star", "count": 46 },
+      { "name": "5 star", "count": 62 }
+    ]
+  },
+  {
+    "image": "https://ui-avatars.com/api/?name=Slack&size=600&background=4a154b&color=fff&bold=true&format=png",
+    "title": "Slack - Team Communication Hub Platform",
+    "companyName": "Salesforce",
+    "id": 8,
+    "description": "Slack is a powerful communication hub that brings all your team's conversations, tools, and files together in one place. Designed to replace email for internal communication, Slack organizes conversations into channels that can be created for projects, teams, topics, or anything else relevant to your work. With threaded conversations, you can keep discussions organized and easy to follow, while direct messages and group chats facilitate quick one-on-one or small group conversations. Slack's real strength lies in its extensive integration ecosystem, connecting with over 2,500 apps and services including Google Drive, Zoom, Salesforce, GitHub, and many more. Features like voice and video calls, screen sharing, workflow automation through Slack bots, powerful search that finds messages and files instantly, and customizable notifications ensure that teams stay connected and productive. Whether your team is remote, hybrid, or in-office, Slack creates a digital workspace that keeps everyone aligned and informed.",
+    "size": 47,
+    "reviews": 850,
+    "ratingAvg": 4.2,
+    "downloads": 240000,
+    "ratings": [
+      { "name": "1 star", "count": 17 },
+      { "name": "2 star", "count": 27 },
+      { "name": "3 star", "count": 37 },
+      { "name": "4 star", "count": 47 },
+      { "name": "5 star", "count": 64 }
+    ]
+  },
+  {
+    "image": "https://ui-avatars.com/api/?name=Microsoft+To+Do&size=600&background=2564cf&color=fff&bold=true&format=png",
+    "title": "Microsoft To Do - Daily Planner App",
+    "companyName": "Microsoft",
+    "id": 9,
+    "description": "Microsoft To Do is an intelligent task management app that helps you plan your day and manage your life with ease. Built on the foundation of the beloved Wunderlist, To Do offers a clean, intuitive interface that makes it simple to capture and organize tasks, set reminders, and add due dates. The app's signature feature, 'My Day,' provides a dedicated space to focus on tasks you want to accomplish today, helping you maintain focus and build momentum. Smart suggestions powered by AI recommend tasks you might want to add to your day based on upcoming deadlines and your previous behavior. With features like recurring tasks, file attachments, subtasks for breaking down complex projects, and the ability to share lists with family and colleagues, To Do adapts to both personal and professional needs. Deep integration with Microsoft 365 means tasks from Outlook, Planner, and other Microsoft services automatically appear in To Do, creating a unified task management experience.",
+    "size": 48,
+    "reviews": 900,
+    "ratingAvg": 4.3,
+    "downloads": 260000,
+    "ratings": [
+      { "name": "1 star", "count": 18 },
+      { "name": "2 star", "count": 28 },
+      { "name": "3 star", "count": 38 },
+      { "name": "4 star", "count": 48 },
+      { "name": "5 star", "count": 66 }
+    ]
+  },
+  {
+    "image": "https://ui-avatars.com/api/?name=Google+Calendar&size=600&background=4285f4&color=fff&bold=true&format=png",
+    "title": "Google Calendar - Smart Scheduling Solution",
+    "companyName": "Google LLC",
+    "id": 10,
+    "description": "Google Calendar is more than just a calendar app—it's a comprehensive time management solution that helps you organize your schedule, coordinate meetings, and make the most of your time. With its intelligent features, Calendar automatically adds events from Gmail like flight bookings, hotel reservations, and concert tickets, ensuring you never miss important commitments. The app's color-coding system lets you visually organize different types of events, while multiple calendar views (day, week, month, schedule) help you plan at any timescale. Calendar's scheduling features include the ability to see colleague availability, propose meeting times, book conference rooms, and add video conferencing with Google Meet automatically. Smart scheduling suggestions help you find the perfect meeting time when coordinating with multiple people. With features like Goals that automatically find time in your schedule for personal development, reminders that persist until completed, and seamless integration with other Google services and third-party apps, Google Calendar becomes your personal assistant for time management.",
+    "size": 49,
+    "reviews": 950,
+    "ratingAvg": 4.4,
+    "downloads": 280000,
+    "ratings": [
+      { "name": "1 star", "count": 19 },
+      { "name": "2 star", "count": 29 },
+      { "name": "3 star", "count": 39 },
+      { "name": "4 star", "count": 49 },
+      { "name": "5 star", "count": 68 }
+    ]
+  },
+  {
+    "image": "https://ui-avatars.com/api/?name=Forest&size=600&background=6db05a&color=fff&bold=true&format=png",
+    "title": "Forest - Focus Timer Productivity Booster",
+    "companyName": "SeekrTech",
+    "id": 11,
+    "description": "Forest is an innovative focus and productivity app that gamifies the process of staying concentrated and avoiding phone distractions. Using a unique concept where you plant a virtual tree that grows while you focus on your work, Forest provides a visual and rewarding way to build better habits and improve concentration. If you leave the app to check social media or play games, your tree dies, creating a gentle but effective deterrent against digital distractions. Over time, you grow an entire forest representing your productive hours, with detailed statistics showing your focus patterns throughout days, weeks, and months. The app includes features like customizable focus sessions, white noise and ambient sounds to enhance concentration, the ability to block specific apps during focus time, and social features where you can plant trees with friends for accountability. Perhaps most remarkably, Forest partners with Trees for the Future to plant real trees on Earth when you spend virtual coins earned through focused work, turning your productivity into environmental impact.",
+    "size": 50,
+    "reviews": 1000,
+    "ratingAvg": 4.0,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 40 },
+      { "name": "4 star", "count": 50 },
+      { "name": "5 star", "count": 70 }
+    ]
+  },
+  {
+    "image": "https://ui-avatars.com/api/?name=Basecamp&size=600&background=1d8248&color=fff&bold=true&format=png",
+    "title": "Basecamp - Project Management Communication Tool",
+    "companyName": "Basecamp LLC",
+    "id": 12,
+    "description": "Basecamp is a straightforward, all-in-one project management and team communication tool that prioritizes simplicity and clarity over feature bloat. Designed with the philosophy that work communication should be calm and organized, Basecamp provides everything teams need without overwhelming them with unnecessary complexity. Each project in Basecamp includes message boards for announcements and discussions, to-do lists for task management, schedules for important dates and milestones, docs and files for centralized document storage, and a campfire chat room for real-time conversations. The Hill Charts feature provides a unique way to visualize project progress, showing not just what's done but whether work is still in the uncertain figuring-it-out phase or the confident executing phase. Automatic check-ins replace status meetings by prompting team members to share updates on their schedule, while the client access feature lets you collaborate with external stakeholders without giving them full access to your internal operations. With a flat pricing structure regardless of team size, Basecamp is particularly popular among agencies, consultants, and small to medium-sized businesses.",
+    "size": 51,
+    "reviews": 1050,
+    "ratingAvg": 4.1,
+    "downloads": 320000,
+    "ratings": [
+      { "name": "1 star", "count": 21 },
+      { "name": "2 star", "count": 31 },
+      { "name": "3 star", "count": 41 },
+      { "name": "4 star", "count": 51 },
+      { "name": "5 star", "count": 72 }
+    ]
+  },
+  {
+    "image": "https://ui-avatars.com/api/?name=Airtable&size=600&background=fcb400&color=fff&bold=true&format=png",
+    "title": "Airtable - Flexible Database Spreadsheet Platform",
+    "companyName": "Airtable Inc.",
+    "id": 13,
+    "description": "Airtable is a revolutionary platform that combines the simplicity of a spreadsheet with the power of a database, creating a flexible tool that adapts to virtually any workflow or use case. Unlike traditional spreadsheets, Airtable lets you organize information in multiple views—grid, calendar, gallery, kanban, and form—making it easy to visualize and interact with your data in the way that makes most sense for each task. Each Airtable base can contain multiple tables with rich field types including attachments, checkboxes, dropdowns, ratings, and links to records in other tables, enabling complex relational databases without technical expertise. The platform excels at project management, content calendars, product roadmaps, event planning, inventory tracking, CRM systems, and countless other applications. With powerful features like filtered views, automation that triggers actions based on conditions, integrations with hundreds of apps through Zapier and native connections, and collaborative features including comments and real-time editing, Airtable serves as a visual, customizable workspace where teams can build exactly the tools they need.",
+    "size": 52,
+    "reviews": 1100,
+    "ratingAvg": 4.2,
+    "downloads": 340000,
+    "ratings": [
+      { "name": "1 star", "count": 22 },
+      { "name": "2 star", "count": 32 },
+      { "name": "3 star", "count": 42 },
+      { "name": "4 star", "count": 52 },
+      { "name": "5 star", "count": 74 }
+    ]
+  },
+  {
+    "image": "https://ui-avatars.com/api/?name=Todo.txt&size=600&background=5f9ea0&color=fff&bold=true&format=png",
+    "title": "Todo.txt - Minimalist Plain Text Manager",
+    "companyName": "Gina Trapani",
+    "id": 14,
+    "description": "Todo.txt is a beautifully simple, future-proof task management system built on plain text files. Created by productivity expert Gina Trapani, this approach ensures your task list will be readable and accessible decades from now, regardless of what software or platforms exist. The simplicity of plain text means your tasks are stored in a format that can be opened, edited, and searched using any text editor on any device, making you truly platform-independent. Despite its minimalist approach, Todo.txt supports sophisticated task management through a simple syntax for priorities, projects, contexts, and due dates. The format uses + for projects, @ for contexts (like @phone or @computer), and priority markers (A), (B), (C) to organize your tasks effectively. Numerous apps across different platforms support the Todo.txt format, giving you flexibility in how you interact with your tasks while maintaining compatibility. This approach appeals to developers, writers, and anyone who values data portability and simplicity over feature complexity, offering a distraction-free way to manage tasks that puts you in control of your data.",
+    "size": 53,
+    "reviews": 1150,
+    "ratingAvg": 4.3,
+    "downloads": 360000,
+    "ratings": [
+      { "name": "1 star", "count": 23 },
+      { "name": "2 star", "count": 33 },
+      { "name": "3 star", "count": 43 },
+      { "name": "4 star", "count": 53 },
+      { "name": "5 star", "count": 76 }
+    ]
+  },
+  {
+    "image": "https://ui-avatars.com/api/?name=Any.do&size=600&background=3b5998&color=fff&bold=true&format=png",
+    "title": "Any.do - Life Organization Planner Assistant",
+    "companyName": "Any.do",
+    "id": 15,
+    "description": "Any.do is an elegant task management and productivity app that helps you plan, organize, and remember everything in one beautifully designed interface. With its clean, intuitive design and powerful features, Any.do makes it effortless to manage both personal and professional tasks. The app's standout feature is its intelligent virtual assistant that uses natural language processing to understand your voice commands, letting you add tasks, set reminders, and manage your schedule hands-free. The Daily Planner feature starts each day with a quick review of your tasks, helping you prioritize and plan effectively. Any.do's shared lists make it perfect for household management, vacation planning, and team projects, with real-time synchronization ensuring everyone stays updated. The app includes a built-in calendar that combines your tasks and events in one view, location-based reminders that trigger when you arrive at specific places, recurring tasks for habits and routines, and customizable themes and color schemes. Integration with popular services like Gmail, Slack, WhatsApp, and Alexa ensures Any.do fits seamlessly into your existing workflow.",
+    "size": 54,
+    "reviews": 1200,
+    "ratingAvg": 4.4,
+    "downloads": 380000,
+    "ratings": [
+      { "name": "1 star", "count": 24 },
+      { "name": "2 star", "count": 34 },
+      { "name": "3 star", "count": 44 },
+      { "name": "4 star", "count": 54 },
+      { "name": "5 star", "count": 78 }
+    ]
+  },
+  {
+    "image": "https://ui-avatars.com/api/?name=Notability&size=600&background=00d4ff&color=fff&bold=true&format=png",
+    "title": "Notability - Digital Handwriting Note Taker",
+    "companyName": "Ginger Labs",
+    "id": 16,
+    "description": "Notability is a premium note-taking app that perfectly combines handwriting, photos, and typing into a seamless, powerful experience ideal for students, professionals, and creative thinkers. Designed to take full advantage of iPad and Apple Pencil capabilities, Notability offers an incredibly natural writing experience with smooth, responsive ink and powerful organization features. The app's multi-note feature lets you view and work with multiple notes simultaneously, perfect for research, studying from multiple sources, or referencing materials while taking notes. Audio recording synchronized with your notes is a game-changing feature for lectures and meetings—tap anywhere in your notes to jump to that moment in the recording. Notability supports PDF annotation with highlighting, text boxes, and freehand drawing, making it ideal for reviewing documents, filling forms, or marking up contracts. Advanced features include math conversion that turns handwritten equations into typed text, shape recognition that perfects your hand-drawn diagrams, text recognition that makes handwritten notes searchable, and presentation mode for sharing notes during meetings or classes. With iCloud sync keeping your notes updated across all devices, Notability serves as a complete digital notebook replacement.",
+    "size": 55,
+    "reviews": 1250,
+    "ratingAvg": 4.0,
+    "downloads": 400000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 45 },
+      { "name": "4 star", "count": 55 },
+      { "name": "5 star", "count": 80 }
+    ]
+  },
+  {
+    "image": "https://ui-avatars.com/api/?name=Habitica&size=600&background=9c27b0&color=fff&bold=true&format=png",
+    "title": "Habitica - Gamified Habit Building RPG",
+    "companyName": "HabitRPG",
+    "id": 17,
+    "description": "Habitica is a unique productivity app that treats your real life like a role-playing game, turning your tasks and habits into a fun adventure where completing real-world activities helps your avatar level up and earn rewards. This innovative approach makes building good habits and staying productive genuinely enjoyable by leveraging the psychological principles that make games addictive. In Habitica, you create an avatar and three types of tasks: Habits (activities you want to do more or less), Dailies (things you need to do every day or on specific days), and To-Dos (one-time tasks). Completing these earns you experience points, gold, and items to customize your avatar and battle monsters. Failing to complete Dailies or engaging in bad habits causes your avatar to take damage, creating real stakes for your behavior. The app includes a social component where you can join parties to fight bosses together, creating accountability through teamwork, and guilds where you can discuss strategies and challenges with like-minded users. With challenge systems, pets and mounts to collect, special equipment to unlock, and seasonal events, Habitica successfully transforms self-improvement into an engaging game.",
+    "size": 56,
+    "reviews": 1300,
+    "ratingAvg": 4.1,
+    "downloads": 420000,
+    "ratings": [
+      { "name": "1 star", "count": 26 },
+      { "name": "2 star", "count": 36 },
+      { "name": "3 star", "count": 46 },
+      { "name": "4 star", "count": 56 },
+      { "name": "5 star", "count": 82 }
+    ]
+  },
+  {
+    "image": "https://ui-avatars.com/api/?name=Microsoft+OneNote&size=600&background=7719aa&color=fff&bold=true&format=png",
+    "title": "Microsoft OneNote - Digital Notebook Organization System",
+    "companyName": "Microsoft",
+    "id": 18,
+    "description": "Microsoft OneNote is a comprehensive digital notebook that offers unlimited space to capture and organize everything from quick notes to complex research projects. Unlike traditional note apps with rigid structures, OneNote gives you a free-form canvas where you can type anywhere, draw with a stylus, insert images and files, record audio, clip web pages, and create tables—all on the same page. The organizational hierarchy of notebooks, sections, and pages provides flexible structure without limiting creativity. OneNote's search capabilities are exceptionally powerful, finding text even in images and handwritten notes, making it easy to retrieve information from your vast collection of notes. Real-time collaboration features let multiple people edit the same notebook simultaneously, perfect for team projects, meeting notes, and shared knowledge bases. Integration with Microsoft 365 means you can easily share OneNote pages in Teams, email pages from Outlook, or embed Excel spreadsheets directly into your notes. Features like page templates, tag systems for categorizing notes, password-protected sections for sensitive information, and the ability to send content to OneNote from almost anywhere make it an indispensable tool for students, researchers, and professionals who deal with large amounts of information.",
+    "size": 57,
+    "reviews": 1350,
+    "ratingAvg": 4.2,
+    "downloads": 440000,
+    "ratings": [
+      { "name": "1 star", "count": 27 },
+      { "name": "2 star", "count": 37 },
+      { "name": "3 star", "count": 47 },
+      { "name": "4 star", "count": 57 },
+      { "name": "5 star", "count": 84 }
+    ]
+  },
+  {
+    "image": "https://ui-avatars.com/api/?name=RescueTime&size=600&background=ff6347&color=fff&bold=true&format=png",
+    "title": "RescueTime - Automatic Time Tracking Analytics",
+    "companyName": "RescueTime Inc.",
+    "id": 19,
+    "description": "RescueTime is an automatic time-tracking and productivity analytics tool that helps you understand exactly how you spend your time on your devices, providing insights that can dramatically improve your focus and efficiency. Unlike manual time trackers, RescueTime runs quietly in the background, automatically recording which applications and websites you use and for how long, eliminating the need for timers or manual entry. The app categorizes your activities into productive and distracting categories, generates detailed reports showing your productivity patterns throughout the day and week, and assigns you a daily productivity score that gamifies the improvement process. RescueTime's FocusTime feature blocks distracting websites for specified periods, helping you maintain concentration during important work. Advanced features include detailed breakdowns of time spent in specific applications, productivity trends over time, alerts when you've spent too long on distracting sites, weekly email reports with insights and achievements, and goal-setting capabilities for limiting unproductive time or ensuring you spend enough time on important activities. By providing objective data about your digital habits, RescueTime helps you identify time sinks, optimize your schedule, and make informed decisions about how to spend your time more effectively.",
+    "size": 58,
+    "reviews": 1400,
+    "ratingAvg": 4.3,
+    "downloads": 460000,
+    "ratings": [
+      { "name": "1 star", "count": 28 },
+      { "name": "2 star", "count": 38 },
+      { "name": "3 star", "count": 48 },
+      { "name": "4 star", "count": 58 },
+      { "name": "5 star", "count": 86 }
+    ]
+  },
+  {
+    "image": "https://ui-avatars.com/api/?name=TimeTune&size=600&background=20b2aa&color=fff&bold=true&format=png",
+    "title": "TimeTune - Daily Routine Schedule Optimizer",
+    "companyName": "TimeTune Inc.",
+    "id": 20,
+    "description": "TimeTune is a sophisticated daily planner and routine management app that helps you organize your entire day into productive blocks of time, ensuring that every hour is optimized for maximum efficiency and balance. Based on time-blocking methodology used by highly productive individuals, TimeTune lets you create detailed daily routines that allocate specific time slots for work, exercise, meals, hobbies, and rest. The app's visual timeline gives you a bird's-eye view of your entire day, making it easy to see how your time is distributed and identify opportunities for better balance. You can create multiple routines for different types of days—workdays, weekends, vacation days—and switch between them as needed. TimeTune's scheduling features include recurring activities that automatically populate your calendar, customizable categories with color coding for visual clarity, and the ability to track how well you're following your planned routine versus actual execution. The app sends notifications and reminders to keep you on track throughout the day, while detailed statistics and reports show your productivity patterns over time, helping you refine your schedule for optimal performance and work-life balance.",
+    "size": 59,
+    "reviews": 1450,
+    "ratingAvg": 4.4,
+    "downloads": 480000,
+    "ratings": [
+      { "name": "1 star", "count": 29 },
+      { "name": "2 star", "count": 39 },
+      { "name": "3 star", "count": 49 },
+      { "name": "4 star", "count": 59 },
+      { "name": "5 star", "count": 88 }
+    ]
+  },
+  {
+    "image": "https://ui-avatars.com/api/?name=TickTick&size=600&background=4caf50&color=fff&bold=true&format=png",
+    "title": "TickTick - Advanced Task Calendar Tracker",
+    "companyName": "Appest",
+    "id": 21,
+    "description": "TickTick is a feature-rich task management app that combines powerful to-do lists with calendar integration, habit tracking, and Pomodoro timer functionality to create a comprehensive productivity solution. What sets TickTick apart is its impressive array of features at an affordable price point, making enterprise-level task management accessible to everyone. The app offers flexible viewing options including list view, calendar view, and timeline view, letting you visualize your tasks in whatever format works best for your workflow. TickTick's smart parsing automatically detects dates, times, and priorities from your task descriptions, making quick entry effortless. The built-in Pomodoro timer with customizable work and break intervals helps you maintain focus and prevent burnout, while white noise options create an ideal working environment. Advanced features include task dependencies that ensure prerequisite tasks are completed first, location-based reminders that trigger when you arrive at specific places, customizable widgets for quick access to your tasks, and powerful filtering and sorting options. The habit tracker monitors your streaks and progress toward building new routines, while collaboration features let you share lists and assign tasks to team members, making TickTick suitable for both personal and team productivity.",
+    "size": 60,
+    "reviews": 1500,
+    "ratingAvg": 4.0,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 60 },
+      { "name": "5 star", "count": 90 }
+    ]
+  },
+  {
+    "image": "https://ui-avatars.com/api/?name=OmniFocus&size=600&background=e74c3c&color=fff&bold=true&format=png",
+    "title": "OmniFocus - Professional GTD Task System",
+    "companyName": "The Omni Group",
+    "id": 22,
+    "description": "OmniFocus is a sophisticated task management system designed specifically for power users who need industrial-strength organization based on David Allen's Getting Things Done (GTD) methodology. Exclusively available for Apple devices, OmniFocus takes full advantage of iOS and macOS capabilities to deliver a premium, highly customizable productivity experience. The app's organizational structure uses Projects, Tags, and Perspectives to create a flexible system that adapts to complex workflows and multiple areas of responsibility. Projects can be single-action lists or sequential workflows with dependent tasks, while Tags provide unlimited categorization possibilities beyond simple folders. OmniFocus's Forecast view combines your calendar events with due and deferred tasks to give you a complete picture of upcoming commitments. The Review mode systematically guides you through your projects on a customizable schedule, ensuring nothing falls through the cracks—a core GTD principle. Advanced features include powerful automation using the Omni Automation scripting system, custom perspectives that save complex filters for instant access, location-based task triggering, robust repeating task options with multiple recurrence patterns, and deep integration with Siri, Shortcuts, and other iOS features. While OmniFocus has a steeper learning curve than simpler task apps, its power and flexibility make it the choice of professionals managing complex projects and multiple responsibilities.",
+    "size": 61,
+    "reviews": 1550,
+    "ratingAvg": 4.1,
+    "downloads": 520000,
+    "ratings": [
+      { "name": "1 star", "count": 31 },
+      { "name": "2 star", "count": 41 },
+      { "name": "3 star", "count": 51 },
+      { "name": "4 star", "count": 61 },
+      { "name": "5 star", "count": 92 }
+    ]
+  },
+  {
+    "image": "https://ui-avatars.com/api/?name=Evernote+Pro&size=600&background=2dbe60&color=fff&bold=true&format=png",
+    "title": "Evernote Pro - Professional Knowledge Management Suite",
+    "companyName": "Evernote Corporation",
+    "id": 23,
+    "description": "Evernote Pro remains one of the most comprehensive and mature note-taking applications available, offering a robust platform for capturing, organizing, and retrieving information across all aspects of your professional and personal life. With over a decade of development, Evernote has evolved into a complete knowledge management system that goes far beyond simple note-taking. The app's organizational hierarchy uses notebooks and stacks to create a logical structure, while a powerful tagging system provides unlimited flexibility in categorizing and cross-referencing information. Evernote's search functionality is exceptionally advanced, capable of finding text within images, PDFs, and even handwritten notes through OCR technology. The Web Clipper browser extension is one of the best in class, allowing you to save entire web pages, simplified articles, screenshots, or bookmarks with a single click, complete with automatic categorization and highlighting. Templates for meeting notes, project plans, weekly reviews, and dozens of other use cases help you create consistent, structured notes quickly. Advanced features include document scanning with automatic edge detection and image enhancement, PDF annotation capabilities, presentation mode for sharing notes in meetings, collaborative notebooks for team projects, and integration with popular services like Google Drive, Slack, and Microsoft Teams. Evernote's desktop, mobile, and web applications provide seamless synchronization ensuring your information is always accessible wherever you need it.",
+    "size": 62,
+    "reviews": 1600,
+    "ratingAvg": 4.2,
+    "downloads": 540000,
+    "ratings": [
+      { "name": "1 star", "count": 32 },
+      { "name": "2 star", "count": 42 },
+      { "name": "3 star", "count": 52 },
+      { "name": "4 star", "count": 62 },
+      { "name": "5 star", "count": 94 }
+    ]
+  },
+  {
+    "image": "https://ui-avatars.com/api/?name=Trello+Premium&size=600&background=0079bf&color=fff&bold=true&format=png",
+    "title": "Trello Premium - Kanban Board Workflow Manager",
+    "companyName": "Atlassian",
+    "id": 24,
+    "description": "Trello Premium has established itself as the gold standard for visual project management, using intuitive boards, lists, and cards to help teams and individuals organize work in a highly visual and flexible manner. Built on the Kanban methodology but adaptable to virtually any workflow, Trello's drag-and-drop interface makes it incredibly easy to move tasks through different stages of completion. Each Trello board represents a project or area of focus, containing lists that typically represent workflow stages like 'To Do,' 'In Progress,' and 'Done,' though they can be customized to any process you need. Cards within these lists contain individual tasks or items, and can include detailed descriptions, checklists, due dates, attachments, labels for categorization, member assignments, and conversation threads for collaboration. Trello's Butler automation feature eliminates repetitive tasks by creating rules, scheduled commands, and button triggers that automatically move cards, assign members, create cards, and more based on your specifications. Power-Ups extend Trello's functionality with hundreds of integrations including Calendar view, Timeline view, voting capabilities, time tracking, custom fields, and connections to tools like Slack, Google Drive, GitHub, and Jira. Whether you're managing a software development sprint, planning a wedding, organizing a content calendar, or coordinating a team project, Trello's flexibility and visual nature make complex workflows simple and transparent.",
+    "size": 63,
+    "reviews": 1650,
+    "ratingAvg": 4.3,
+    "downloads": 560000,
+    "ratings": [
+      { "name": "1 star", "count": 33 },
+      { "name": "2 star", "count": 43 },
+      { "name": "3 star", "count": 53 },
+      { "name": "4 star", "count": 63 },
+      { "name": "5 star", "count": 96 }
+    ]
+  },
+  {
+    "image": "https://ui-avatars.com/api/?name=Asana+Business&size=600&background=f06a6a&color=fff&bold=true&format=png",
+    "title": "Asana Business - Enterprise Team Coordination Platform",
+    "companyName": "Asana, Inc.",
+    "id": 25,
+    "description": "Asana Business is a comprehensive work management platform trusted by organizations worldwide to orchestrate work from daily tasks to strategic initiatives, providing the clarity teams need to deliver exceptional results. Designed with both individual contributors and leadership in mind, Asana creates transparency and accountability across entire organizations. The platform's flexible project views include List view for detailed task management, Board view for Kanban-style workflows, Timeline view for Gantt chart project planning, Calendar view for deadline tracking, and Workload view for resource management—all showing the same underlying data from different perspectives. Asana's powerful hierarchy of portfolios, projects, sections, tasks, and subtasks accommodates complex organizational structures while keeping everything connected and accessible. Custom fields let you track project-specific information like budget, priority, or status without cluttering the interface. Automation rules streamline repetitive work by automatically assigning tasks, updating fields, and moving work through stages based on triggers you define. Advanced features include dependencies that link related tasks to prevent bottlenecks, milestones for tracking major project phases, forms that intake requests and automatically create tasks, goals that connect daily work to company objectives, and comprehensive reporting dashboards that provide insights into team performance and project health. With robust permission controls, guest access for external collaborators, and integrations with hundreds of business tools, Asana scales from small teams to enterprise organizations managing thousands of projects simultaneously.",
+    "size": 64,
+    "reviews": 1700,
+    "ratingAvg": 4.4,
+    "downloads": 580000,
+    "ratings": [
+      { "name": "1 star", "count": 34 },
+      { "name": "2 star", "count": 44 },
+      { "name": "3 star", "count": 54 },
+      { "name": "4 star", "count": 64 },
+      { "name": "5 star", "count": 98 }
+    ]
+  },
+  {
+    "image": "https://ui-avatars.com/api/?name=ClickUp+Enterprise&size=600&background=7b68ee&color=fff&bold=true&format=png",
+    "title": "ClickUp Enterprise - Ultimate Work Operating System",
+    "companyName": "Mango Technologies",
+    "id": 26,
+    "description": "ClickUp Enterprise positions itself as 'One app to replace them all,' offering an incredibly comprehensive productivity platform that combines task management, document collaboration, knowledge management, goal tracking, time tracking, and more into a single, highly customizable workspace. What makes ClickUp unique is its extreme flexibility—virtually every aspect of the platform can be tailored to match your exact workflow preferences. The hierarchical structure of Workspaces, Spaces, Folders, Lists, and Tasks provides organization at any scale, from personal projects to enterprise-wide initiatives. ClickUp's view options are unmatched, offering List, Board, Calendar, Gantt, Timeline, Workload, Map, Activity, Mind Map, and Table views, ensuring you can visualize your work exactly how you need to. Custom fields, statuses, and automation let you build workflows that match your processes perfectly rather than adapting to software limitations. ClickUp Docs provides wiki-style documentation with real-time collaboration, while Whiteboards enable visual brainstorming and planning. The platform includes native time tracking with automatic time estimates, screen recording capabilities, native forms for intake processes, chat for team communication, and comprehensive reporting and dashboards. Advanced features like task dependencies, recurring tasks with complex patterns, sprint management for agile teams, and goal tracking with automatic progress calculation make ClickUp suitable for everything from personal to-do lists to managing multiple departments in large organizations. While the extensive feature set can be overwhelming initially, ClickUp's customization capabilities mean you can start simple and gradually adopt advanced features as needed.",
+    "size": 65,
+    "reviews": 1750,
+    "ratingAvg": 4.0,
+    "downloads": 600000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 55 },
+      { "name": "4 star", "count": 65 },
+      { "name": "5 star", "count": 100 }
+    ]
+  },
+  {
+    "image": "https://ui-avatars.com/api/?name=Slack+Business&size=600&background=4a154b&color=fff&bold=true&format=png",
+    "title": "Slack Business - Team Communication Collaboration Hub",
+    "companyName": "Slack Technologies",
+    "id": 27,
+    "description": "Slack Business has revolutionized workplace communication by creating a digital headquarters where teams can collaborate, communicate, and coordinate work more efficiently than ever before. Moving beyond email's limitations, Slack organizes conversations into channels that can be created for projects, teams, topics, offices, or any other organizational structure that makes sense for your work. This channel-based approach keeps conversations organized and searchable, making it easy to find information and catch up on discussions you missed. Channels can be public for company-wide transparency or private for sensitive discussions, and you can easily add or remove members as project teams evolve. Direct messages and group conversations provide space for quick questions and informal communication, while threaded replies keep specific discussions organized within busy channels. Slack's true power emerges through its extensive integration ecosystem with over 2,500 apps and services including Google Workspace, Microsoft 365, Salesforce, Zoom, Dropbox, GitHub, and countless others, centralizing notifications and enabling actions across your entire tech stack without leaving Slack. Workflow Builder lets non-technical users create custom automations for common processes like collecting information, approving requests, or onboarding new team members. Advanced features include voice and video calls with screen sharing, Slack Connect for collaborating with external organizations securely, powerful search that finds messages, files, and conversations across your entire workspace, customizable notifications to prevent information overload, and analytics that help leaders understand how their teams collaborate. Whether your team is remote, hybrid, or in-office, Slack creates a shared space that keeps everyone connected and informed.",
+    "size": 66,
+    "reviews": 1800,
+    "ratingAvg": 4.1,
+    "downloads": 620000,
+    "ratings": [
+      { "name": "1 star", "count": 36 },
+      { "name": "2 star", "count": 46 },
+      { "name": "3 star", "count": 56 },
+      { "name": "4 star", "count": 66 },
+      { "name": "5 star", "count": 102 }
+    ]
+  },
+  {
+    "image": "https://ui-avatars.com/api/?name=Google+Keep+Pro&size=600&background=fbbc04&color=fff&bold=true&format=png",
+    "title": "Google Keep Pro - Fast Note Capture Tool",
+    "companyName": "Google LLC",
+    "id": 28,
+    "description": "Google Keep Pro is designed to be the fastest, most frictionless note-taking app available, perfect for capturing fleeting thoughts, quick reminders, and simple lists without any unnecessary complexity or setup. Its minimalist design philosophy prioritizes speed and accessibility over advanced features, making it ideal for users who value simplicity and quick capture over elaborate organization systems. Keep's colorful note cards can contain text, checklists, images, or voice recordings, and you can organize them with labels and color-coding or simply search through everything instantly. The voice memo feature automatically transcribes your spoken notes, perfect for capturing ideas while driving or when typing isn't convenient. Location-based and time-based reminders ensure you remember to complete tasks at the right time or when you arrive at specific places like the grocery store or office. Collaborative features let you share notes and lists with others, with real-time synchronization ensuring everyone sees updates immediately—perfect for shared grocery lists, vacation planning, or coordinating with roommates and family members. Keep's integration with Google Workspace means you can easily copy Keep notes into Google Docs, access your notes from Gmail's sidebar, and use Keep notes while working in other Google apps. The drawing tool allows for quick sketches and visual notes, while the ability to extract text from images through OCR makes it easy to digitize physical notes, business cards, or whiteboard content. Available as a web app, mobile app, and Chrome extension, Google Keep ensures your notes are always at your fingertips across all your devices with instant synchronization.",
+    "size": 67,
+    "reviews": 1850,
+    "ratingAvg": 4.2,
+    "downloads": 640000,
+    "ratings": [
+      { "name": "1 star", "count": 37 },
+      { "name": "2 star", "count": 47 },
+      { "name": "3 star", "count": 57 },
+      { "name": "4 star", "count": 67 },
+      { "name": "5 star", "count": 104 }
+    ]
+  }
+]

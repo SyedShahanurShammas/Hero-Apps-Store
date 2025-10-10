@@ -4,6 +4,7 @@ import useLoaderApps from "../../Hooks/useLoaderApps";
 import download from "../../assets/icon-downloads.png";
 import download1 from "../../assets/icon-ratings.png";
 import download2 from "../../assets/icon-review.png";
+import BarCharts from "../../components/Barchart/BarCharts";
 
 const AppsDetails = () => {
   const [active, setActive] = useState(false);
@@ -12,8 +13,6 @@ const AppsDetails = () => {
   const detailApp = allApps.find((app) => parseInt(id) === app.id);
   if (loading) return <h1>Loading...</h1>;
 
-  //   console.log(detailApp);
-
   const {
     title,
     companyName,
@@ -21,7 +20,7 @@ const AppsDetails = () => {
     downloads,
     image,
     reviews,
-
+    ratings,
     size,
     ratingAvg,
   } = detailApp || {};
@@ -45,7 +44,7 @@ const AppsDetails = () => {
       {/* card */}
       <div className="lg:mt-20 lg:flex gap-10 mt-10 lg:mb-3 ">
         <div className="">
-          <img className="h-[300px]" src={image} alt="" />
+          <img className="h-[300px] w-full" src={image} alt="" />
         </div>
         <div className="flex-1 mb-10">
           <div className="lg:mb-10 mb-4 space-y-1.5">
@@ -89,8 +88,12 @@ const AppsDetails = () => {
         </div>
       </div>
       <hr className=" border-2 border-t border-gray-300 mb-6 "></hr>
-      <h1>Ratings</h1>
-      <div>
+      <h1 className="lg:my-6 mt-2 text-[#001931] pl-4 font-semibold">
+        Ratings
+      </h1>
+      <BarCharts ratings={ratings}></BarCharts>
+      <hr className=" border-2 border-t border-gray-300 my-6 "></hr>
+      <div className="lg:mb-15 mb-5 mt-5">
         <h1 className="text-[#001931] text-3xl mb-4">Description</h1>
         <p className="text-[#627382]  mb-4">{description}</p>
       </div>
