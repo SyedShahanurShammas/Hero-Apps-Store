@@ -1,17 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import InstalledApp from "../../components/InstalledItem/InstalledApp";
+import { loadAppsList } from "../../utilities/localStorage";
 
 const Installation = () => {
-  const [saveApps, setSaveApps] = useState([]);
+  const [saveApps, setSaveApps] = useState(() => loadAppsList());
   const [sortOrder, setSortOrder] = useState("none");
-
-  // get from local storage
-  useEffect(() => {
-    const saveInstalledApp = JSON.parse(localStorage.getItem("appsList"));
-    if (saveInstalledApp) {
-      setSaveApps(saveInstalledApp);
-    }
-  }, []);
 
   const handleSort = (() => {
     if (sortOrder === "download-asc") {

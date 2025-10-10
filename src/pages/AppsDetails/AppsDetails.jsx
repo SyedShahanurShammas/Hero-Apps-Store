@@ -5,6 +5,7 @@ import download from "../../assets/icon-downloads.png";
 import download1 from "../../assets/icon-ratings.png";
 import download2 from "../../assets/icon-review.png";
 import BarCharts from "../../components/Barchart/BarCharts";
+import { updatedAppList } from "../../utilities/localStorage";
 
 const AppsDetails = () => {
   const [active, setActive] = useState(false);
@@ -26,17 +27,9 @@ const AppsDetails = () => {
   } = detailApp || {};
 
   //   set to local storage
-  const handleOnclick = () => {
+  const handleOnclick = (detailApp) => {
     setActive(true);
-    const existingApps = JSON.parse(localStorage.getItem("appsList"));
-    let updatedList = [];
-    if (existingApps) {
-      updatedList = [...existingApps, detailApp];
-    } else {
-      updatedList.push(detailApp);
-    }
-
-    localStorage.setItem("appsList", JSON.stringify(updatedList));
+    updatedAppList(detailApp);
   };
 
   return (
@@ -77,7 +70,7 @@ const AppsDetails = () => {
             </div>
           </div>
           <button
-            onClick={() => handleOnclick()}
+            onClick={() => handleOnclick(detailApp)}
             disabled={active}
             className={`bg-[#00D390] rounded  text-white py-3 px-5 ${
               active ? "opacity-60 cursor-not-allowed" : "cursor-pointer"
